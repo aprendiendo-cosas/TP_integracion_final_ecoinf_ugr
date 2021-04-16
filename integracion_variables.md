@@ -33,5 +33,12 @@ En [esta](https://github.com/aprendiendo-cosas/integracion_final_ecoinf_ugr/raw/
 
 Además de lo visto en clase, os paso la siguiente información que puede resultar de utilidad:
 
-+ 
++ [Artículo](https://github.com/aprendiendo-cosas/integracion_final_ecoinf_ugr/raw/main/biblio/modelos_ecologicos.pdf) que describe distintos tipos de modelos ecológicos. Incide en alguno de los conceptos descritos en la sesión final de nuestra asignatura. 
++ [Resumen](https://github.com/aprendiendo-cosas/integracion_final_ecoinf_ugr/raw/main/biblio/herramientas_apoyo_decisiones.pdf) de mi tesis (año 2003, no os riais de los esquemas, por favor. En esa época no existía R). En el texto se describen los conceptos generales sobre integración de información ambiental usando técnicas de operadores booleanos. He recortado solo la parte interesante. Eso hace que el texto no sea muy fluido porque faltan secciones.
++ Varios textos sobre análisis multicriterio:
+  + [Artículo](https://github.com/aprendiendo-cosas/integracion_final_ecoinf_ugr/raw/main/biblio/multicriterio_seleccion_zonas_plantas_electricas.pdf) sobre el uso del análisis multicriterio para localizar plantas de producción fotovoltaica. 
+  + [Interesante](https://github.com/aprendiendo-cosas/integracion_final_ecoinf_ugr/raw/main/biblio/MCE_review.pdf) revisión del uso de las técnicas multicriterio en cuestiones de conservación de la naturaleza. Muy recomendable este trabajo.
+  + [Artículo](https://github.com/aprendiendo-cosas/integracion_final_ecoinf_ugr/raw/main/biblio/ecological_corridors_multicriteria.pdf) que describe cómo la conectividad ecológica del paisaje usando evaluación multicriterio.
+  + [Informe](https://github.com/aprendiendo-cosas/integracion_final_ecoinf_ugr/raw/main/biblio/memoria_apicola_2004.pdf) de la REDIAM que describe cómo se hizo el mapa de aprovechamientos apícolas de Andalucía usando la técnica de la evaluación multicriterio. 
+  + [Guión](https://aprendiendo-cosas.github.io/P_comp_intra_ecologia_CCAA/guion_competencia_intraespecifica_pinares.html) de una práctica de segundo de ambientales en la que aplicamos la evaluación multicriterio. Como veréis, se parece bastante al caso de estudio que hemos desarrollado en nuestra asignatura. 
 
