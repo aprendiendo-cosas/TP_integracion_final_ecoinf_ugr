@@ -27,5 +27,11 @@ Esta sesión se organiza en torno al siguiente hilo argumental:
     + Evaluación multicriterio. 
     + Operadores booleanos.
 
-En esta presentación se resumen los conceptos anteriores. Y en [este](https://www.buzzsprout.com/1759486/8346525-tecnicas-de-agregacion-de-variables ) audio se recoge el sonido de la clase. Hubo un error en la grabación y el video no está disponible :(
+En [esta](https://github.com/aprendiendo-cosas/integracion_final_ecoinf_ugr/raw/main/presentacion/presentacion_agregacion.pptx) presentación se resumen los conceptos anteriores. Y en [este](https://www.buzzsprout.com/1759486/8346525-tecnicas-de-agregacion-de-variables ) audio se recoge el sonido de la clase. Hubo un error en la grabación y el video no está disponible :(
+
+
+
+Además de lo visto en clase, os paso la siguiente información que puede resultar de utilidad:
+
++ 
 
