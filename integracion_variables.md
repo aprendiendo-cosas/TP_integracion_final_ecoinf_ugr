@@ -1,9 +1,10 @@
 # Técnicas de agregación de variables ambientales
 
 
-> + **_Versión_**: 2021-2022
-> + **_Asignatura (titulación)_**: Ciclo de gestión del dato: ecoinformática (máster conservación, gestión y restauración de la biodiversidad. UGR). Curso 2021-2022
+> + **_Versión_**: 2022-2023
+> + **_Asignatura (titulación)_**: Ciclo de gestión del dato: ecoinformática (máster conservación, gestión y restauración de la biodiversidad. UGR). Curso 2022-2023
 > + **_Autor_**: Curro Bonet-García (fjbonet@uco.es)
+> + **_Duración_**: Una sesión de dos horas
 
 
 
@@ -20,15 +21,14 @@ Esta actividad tiene los siguientes objetivos de aprendizaje:
 
 Esta sesión se organiza en torno al siguiente hilo argumental:
 + Enumeración de los factores ecológicos y socioeconómicos que nos permiten responder a la pregunta inicialmente planteada en esta asignatura.
-+ Descripción de los dos tipos de modelos que usamos para mejorar nuestra comprensión de la naturaleza: empíricos y basados en procesos.
-+ Descripción de un tercer grupo de herramientas muy útiles para trasladar conocimiento científico a los tomadores de decisiones.
-  + Definición de conceptos relacionados con estas herramientas: objetivo, variable, criterio, análisis de la decisión.
-  + Transformación de variables en criterios.
-  + Combinación de criterios:
-    + Evaluación multicriterio. 
-    + Operadores booleanos.
++ Descripción de los tipos de modelos que usamos para mejorar nuestra comprensión de la naturaleza: 
+  + Métodos estadísticos: se trata de encontrar una función matemática que explique correctamente cómo cambia la variable dependiente (regeneración de encina bajo el pinar) en función de las múltiples variables independientes. Esta aproximación es la tradicional.
+  + Álgebra de mapas: Se trata de un conjunto de técnicas que permiten combinar mapas procedentes de formatos diversos para resolver un problema de ubicación en el espacio de una actividad dada (en nuestro caso ubicación de las zonas con más regeneración).
+  + Métodos basados en procesos: Consisten en simular el funcionamiento íntimo de los procesos elementales implicados en la pregunta en cuestión. 
+
 
 En [esta](https://github.com/aprendiendo-cosas/integracion_final_ecoinf_ugr/raw/2021__2022/presentacion/presentacion_agregacion.pptx) presentación se resumen los conceptos anteriores. 
+
 
 Las siguientes secciones describen brevemente las dos técnicas de integración que hemos visto: evaluación multicriterio e integración mediante operadores booleanos. Antes describiremos el paso previo común a ambas: transformar los mapas de variables en mapas de criterios:
 
