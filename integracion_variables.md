@@ -2,7 +2,7 @@
 
 
 > + **_Versión_**: 2022-2023
-> + **_Asignatura (titulación)_**: Ciclo de gestión del dato: ecoinformática (máster conservación, gestión y restauración de la biodiversidad. UGR). Curso 2022-2023
+> + **_Asignatura (titulación)_**: Ciclo de gestión del dato: ecoinformática (máster conservación, gestión y restauración de la biodiversidad. UGR). 
 > + **_Autor_**: Curro Bonet-García (fjbonet@uco.es)
 > + **_Duración_**: Una sesión de dos horas
 
@@ -27,7 +27,7 @@ Esta sesión se organiza en torno al siguiente hilo argumental:
   + Métodos basados en procesos: Consisten en simular el funcionamiento íntimo de los procesos elementales implicados en la pregunta en cuestión. 
 
 
-En [esta](https://github.com/aprendiendo-cosas/integracion_final_ecoinf_ugr/raw/2021__2022/presentacion/presentacion_agregacion.pptx) presentación se resumen los conceptos anteriores. 
+En [esta](https://github.com/aprendiendo-cosas/integracion_final_ecoinf_ugr/raw/2022-2023/presentacion/presentacion_agregacion.pptx) presentación se resumen los conceptos anteriores. 
 
 
 Las siguientes secciones describen brevemente las dos técnicas de integración que hemos visto: evaluación multicriterio e integración mediante operadores booleanos. Antes describiremos el paso previo común a ambas: transformar los mapas de variables en mapas de criterios:
@@ -45,9 +45,9 @@ La función de transformación puede tener formas diferentes. En nuestro caso as
 
 
 
-<img src="https://github.com/aprendiendo-cosas/TP_integracion_final_ecoinf_ugr/raw/2021__2022/imagenes/funcion_pertenencia_directa.png" alt="imagen" style="zoom:25%;" />
+<img src="https://github.com/aprendiendo-cosas/TP_integracion_final_ecoinf_ugr/raw/2022-2023/imagenes/funcion_pertenencia_directa.png" alt="imagen" style="zoom:25%;" />
 
-<img src="https://github.com/aprendiendo-cosas/TP_integracion_final_ecoinf_ugr/raw/2021__2022/imagenes/funcion_pertenencia_inversa.png" alt="imagen" style="zoom:25%;" />
+<img src="https://github.com/aprendiendo-cosas/TP_integracion_final_ecoinf_ugr/raw/2022-2023/imagenes/funcion_pertenencia_inversa.png" alt="imagen" style="zoom:25%;" />
 
 
 
@@ -71,7 +71,7 @@ El proceso de integración se hace fácilmente con la calculadora de mapas de QG
 ```
 La siguiente imagen muestra el método con otro ejemplo diferente:
 
-<img src="https://github.com/aprendiendo-cosas/TP_integracion_final_ecoinf_ugr/raw/2021__2022/imagenes/pesos_ponderados.png" alt="imagen" style="zoom:40%;" />
+<img src="https://github.com/aprendiendo-cosas/TP_integracion_final_ecoinf_ugr/raw/2022-2023/imagenes/pesos_ponderados.png" alt="imagen" style="zoom:40%;" />
 
 Uno de los problemas del análisis multicriterio es que ocurre una compensación de criterios. Si una variable tiene un valor muy alto en un lugar determinado, puede que el resultado final en ese punto sea alto aunque el valor de un criterio importante en ese punto sea bajo. Esto puede hacer que lugares no adecuados sean etiquetados como sí adecuados. Un ejemplo que ilustra esta situación: imaginemos que queremos montar un equipo de baloncesto. Un buen jugador de baloncesto ha de tener las siguientes características:
 + Altura.
@@ -96,13 +96,13 @@ Para implementar esta operación en un SIG, usamos dos operadores matemáticos m
 
 La siguiente figura muestra el funcionamiento de estos operadores:
 
-<img src="https://github.com/aprendiendo-cosas/TP_integracion_final_ecoinf_ugr/raw/2021__2022/imagenes/operadores_booleanos.png" alt="imagen" style="zoom:40%;" />
+<img src="https://github.com/aprendiendo-cosas/TP_integracion_final_ecoinf_ugr/raw/2022-2023/imagenes/operadores_booleanos.png" alt="imagen" style="zoom:40%;" />
 
 Para aplicar estos operadores a nuestras capas, puedes usar el comando [mosaic de SAGA](https://gis.stackexchange.com/questions/150312/combining-multiple-overlapping-rasters-retain-maximum-value). Este comando está disponible en QGIS. 
 
 Los operadores anteriores son un poco "rígidos" dado que solo seleccionan los valores extremos (mínimo o máximo). Para suavizar el resultado se pueden usar otros operadores como los mostrados en la siguiente figura:
 
-<img src="https://github.com/aprendiendo-cosas/TP_integracion_final_ecoinf_ugr/raw/2021__2022/imagenes/operadores_difusos.png" alt="imagen" style="zoom:40%;" />
+<img src="https://github.com/aprendiendo-cosas/TP_integracion_final_ecoinf_ugr/raw/2022-2023/imagenes/operadores_difusos.png" alt="imagen" style="zoom:40%;" />
 
 
 
@@ -127,11 +127,11 @@ Para reclasificar una capa rastser en QGIS, buscamos el algoritmo "reclassify by
 
 Además de lo visto en clase, os paso la siguiente información que puede resultar de utilidad:
 
-+ [Artículo](https://github.com/aprendiendo-cosas/integracion_final_ecoinf_ugr/raw/2021__2022/biblio/modelos_ecologicos.pdf) que describe distintos tipos de modelos ecológicos. Incide en alguno de los conceptos descritos en la sesión final de nuestra asignatura. 
-+ [Resumen](https://github.com/aprendiendo-cosas/integracion_final_ecoinf_ugr/raw/2021__2022/biblio/herramientas_apoyo_decisiones.pdf) de mi tesis (año 2003, no os riais de los esquemas, por favor. En esa época no existía R). En el texto se describen los conceptos generales sobre integración de información ambiental usando técnicas de operadores booleanos. He recortado solo la parte interesante. Eso hace que el texto no sea muy fluido porque faltan secciones.
++ [Artículo](https://github.com/aprendiendo-cosas/integracion_final_ecoinf_ugr/raw/2022-2023/biblio/modelos_ecologicos.pdf) que describe distintos tipos de modelos ecológicos. Incide en alguno de los conceptos descritos en la sesión final de nuestra asignatura. 
++ [Resumen](https://github.com/aprendiendo-cosas/integracion_final_ecoinf_ugr/raw/2022-2023/biblio/herramientas_apoyo_decisiones.pdf) de mi tesis (año 2003, no os riais de los esquemas, por favor. En esa época no existía R). En el texto se describen los conceptos generales sobre integración de información ambiental usando técnicas de operadores booleanos. He recortado solo la parte interesante. Eso hace que el texto no sea muy fluido porque faltan secciones.
 + Varios textos sobre análisis multicriterio:
-  + [Artículo](https://github.com/aprendiendo-cosas/integracion_final_ecoinf_ugr/raw/2021__2022/biblio/multicriterio_seleccion_zonas_plantas_electricas.pdf) sobre el uso del análisis multicriterio para localizar plantas de producción fotovoltaica. 
-  + [Interesante](https://github.com/aprendiendo-cosas/integracion_final_ecoinf_ugr/raw/2021__2022/biblio/MCE_review.pdf) revisión del uso de las técnicas multicriterio en cuestiones de conservación de la naturaleza. Muy recomendable este trabajo.
-  + [Artículo](https://github.com/aprendiendo-cosas/integracion_final_ecoinf_ugr/raw/2021__2022/biblio/ecological_corridors_multicriteria.pdf) que describe cómo la conectividad ecológica del paisaje usando evaluación multicriterio.
-  + [Informe](https://github.com/aprendiendo-cosas/integracion_final_ecoinf_ugr/raw/2021__2022/biblio/memoria_apicola_2004.pdf) de la REDIAM que describe cómo se hizo el mapa de aprovechamientos apícolas de Andalucía usando la técnica de la evaluación multicriterio. 
-  + [Guión](https://rawcdn.githack.com/aprendiendo-cosas/P_comp_intra_ecologia_CCAA/2020-2021/guion_competencia_intraespecifica_pinares.html) de una práctica de segundo de ambientales en la que aplicamos la evaluación multicriterio. Como veréis, se parece bastante al caso de estudio que hemos desarrollado en nuestra asignatura. 
+  + [Artículo](https://github.com/aprendiendo-cosas/integracion_final_ecoinf_ugr/raw/2022-2023/biblio/multicriterio_seleccion_zonas_plantas_electricas.pdf) sobre el uso del análisis multicriterio para localizar plantas de producción fotovoltaica. 
+  + [Interesante](https://github.com/aprendiendo-cosas/integracion_final_ecoinf_ugr/raw/2022-2023/biblio/MCE_review.pdf) revisión del uso de las técnicas multicriterio en cuestiones de conservación de la naturaleza. Muy recomendable este trabajo.
+  + [Artículo](https://github.com/aprendiendo-cosas/integracion_final_ecoinf_ugr/raw/2022-2023/biblio/ecological_corridors_multicriteria.pdf) que describe cómo la conectividad ecológica del paisaje usando evaluación multicriterio.
+  + [Informe](https://github.com/aprendiendo-cosas/integracion_final_ecoinf_ugr/raw/2022-2023/biblio/memoria_apicola_2004.pdf) de la REDIAM que describe cómo se hizo el mapa de aprovechamientos apícolas de Andalucía usando la técnica de la evaluación multicriterio. 
+
