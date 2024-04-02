@@ -1,7 +1,7 @@
 # Técnicas de agregación de variables ambientales
 
 
-> + **_Versión_**: 2022-2023
+> + **_Versión_**: 2023-2024
 > + **_Asignatura (titulación)_**: Ciclo de gestión del dato: ecoinformática (máster conservación, gestión y restauración de la biodiversidad. UGR). 
 > + **_Autor_**: Curro Bonet-García (fjbonet@uco.es)
 > + **_Duración_**: Una sesión de dos horas
@@ -57,6 +57,7 @@ En los dibujos anteriores también puedes ver cómo calcular los parámetros de 
 ## Evaluación multicriterio
 
 El análisis multicriterio es una técnica muy sencilla que permite conciliar en un mismo mapa criterios diferentes. Es una forma de espacializar criterios decisionales basados en conocimiento experto. Es decir, gracias a esta técnica podemos obtener mapas que recojan los criterios de un centro decisor concreto con relación a un aspecto determinado.  En nuestro ejemplo tenemos varios criterios y se trata de unificarlos en un único mapa que asigne un valor de aptitud global a cada punto ocupado por pinares de repoblación. Por ejemplo:
+
 + Criterio de densidad: a más densidad más aptitud.
 + Criterio de profundidad del suelo: a más profundidad más aptitud.
 + Criterio de distancia a manchas donadoras de semillas: A más distancia menos aptitud.
@@ -71,7 +72,7 @@ El proceso de integración se hace fácilmente con la calculadora de mapas de QG
 ```
 La siguiente imagen muestra el método con otro ejemplo diferente:
 
-<img src="https://github.com/aprendiendo-cosas/TP_integracion_final_ecoinf_ugr/raw/2022-2023/imagenes/pesos_ponderados.png" alt="imagen" style="zoom:40%;" />
+#### <img src="https://github.com/aprendiendo-cosas/TP_integracion_final_ecoinf_ugr/raw/2022-2023/imagenes/pesos_ponderados.png" alt="imagen" style="zoom:40%;" />
 
 Uno de los problemas del análisis multicriterio es que ocurre una compensación de criterios. Si una variable tiene un valor muy alto en un lugar determinado, puede que el resultado final en ese punto sea alto aunque el valor de un criterio importante en ese punto sea bajo. Esto puede hacer que lugares no adecuados sean etiquetados como sí adecuados. Un ejemplo que ilustra esta situación: imaginemos que queremos montar un equipo de baloncesto. Un buen jugador de baloncesto ha de tener las siguientes características:
 + Altura.
